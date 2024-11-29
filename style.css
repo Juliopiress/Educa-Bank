@@ -1,25 +1,27 @@
 :root {
     --font-color: white;
     --module-size: 1rem;
-    --font-family:Georgia, 'Times New Roman', Times, serif;
+    --font-family:helvetica, arial, sans-serif;
     --primary-color:tomato;
 }
 
-*
-{
-    margin: 0%;
-    padding: 0%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 
+
+/*Configuração Padrão de início*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahom+a, sans-serif;
 }
 
-body
-{
-    height: 100hv;
+/*Chamamos o body para limitar o tamanho da altura e tamanho da página*/
+body {
+    height: 100vh;
     width: 100vw;
 }
 
-/*--------------------------------Começo dá estilização do header sessões e footer-----------------------------*/
+ 
 
 
 header { /*Chamamos nosso Header para estilização*/ 
@@ -293,7 +295,7 @@ footer img { /*Trabalhando nas IMG dentro do Footer*/
 
 
 
-/* Responsividade do site para telas de 1366px (Telas grandes) */
+
 
 @media screen and (max-width: 1366px) {
 
@@ -378,7 +380,7 @@ footer img { /*Trabalhando nas IMG dentro do Footer*/
 
 
 
-/* Responsividade do site para telas de 991px (Telas medias) */
+
 
 @media screen and (max-width: 991px) {
 
@@ -465,7 +467,7 @@ footer a {
 
 
 
-/* Responsividade do site para telas de 700px (Telas medias) */
+
 
 @media screen and (max-width: 700px) {
 
@@ -518,7 +520,7 @@ footer a {
 
 
 
-/* Responsividade do site para telas de 480px */
+
 
 @media screen and (max-width: 480px) {
 
@@ -640,7 +642,7 @@ footer a {
 
 
 
-/* Responsividade do site para telas de 400px */
+
 
 @media screen and (max-width: 400px) {
     header {
